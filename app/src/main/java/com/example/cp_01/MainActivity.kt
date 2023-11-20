@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val renderableSource = RenderableSource.builder()
             .setSource(
                 this,
-                Uri.parse("assets/donut.glb"),
+                Uri.parse("donut.glb"),
         RenderableSource.SourceType.GLB
         )
         .setRecenterMode(RenderableSource.RecenterMode.ROOT)
